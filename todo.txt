@@ -1,2 +1,4 @@
 14.25 --> coding
 15.00 --> lunch
+14.00 --> sleep
+19.00 --> prayer
