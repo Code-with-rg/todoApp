@@ -1,0 +1,16 @@
+/* bytecode(addr,opcode,p1,p2,p3,p4,p5,comment,subprog) */;
+/* completion(candidate) */;
+/* dbstat(name,path,pageno,pagetype,ncell,payload,unused,mx_payload,pgoffset,pgsize) */;
+/* fsdir(name,mode,mtime,data) */;
+/* fts3tokenize(input,token,start,"end",position) */;
+/* generate_series(value) */;
+/* json_each("key",value,type,atom,id,parent,fullkey,path) */;
+/* json_tree("key",value,type,atom,id,parent,fullkey,path) */;
+/* pragma_database_list(seq,name,file) */;
+/* pragma_module_list(name) */;
+/* sqlite_dbdata(pgno,cell,field,value) */;
+/* sqlite_dbpage(pgno,data) */;
+/* sqlite_dbptr(pgno,child) */;
+/* sqlite_stmt(sql,ncol,ro,busy,nscan,nsort,naidx,nstep,reprep,run,mem) */;
+/* tables_used(type,schema,name,wr,subprog) */;
+/* zipfile(name,mode,mtime,sz,rawdata,data,method) */;
