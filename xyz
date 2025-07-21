@@ -1,0 +1,38 @@
+
+def bubblesort(arr):
+    size = len(arr)
+    for i in range(size):
+        for j in range(0,size-i-1) :
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1],arr[j]
+
+                
+    return arr
+
+def Radixsort(myArray):
+    MaxValue = max(myArray)
+    exp = 1
+    while MaxValue // exp > 0 :
+        radixarray = [[],[],[],[],[],[],[],[],[],[]]
+        for i in myArray :
+            radixindex = (i // exp) % 10
+            print(radixindex)
+            radixarray[radixindex].append(i)
+            print(radixarray)
+        for arr in radixarray:
+            bubblesort(arr)
+        myArray.clear()
+        # print(radixarray)
+        x = 0
+        for bucket in radixarray :
+            for data in bucket :
+                myArray.insert(x, data)
+                x += 1
+        exp *= 10
+    return myArray
+
+myArray = [170, 45, 75, 90, 802, 24, 2, 66]
+
+
+print(Radixsort(myArray))
+
