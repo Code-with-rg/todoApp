@@ -90,18 +90,3 @@ while x :
 
         case _ :
             continue
-            
-
-
-
-
-
-
-            ## is it verified ?
-
-
-
-
-
-
-            ##now
